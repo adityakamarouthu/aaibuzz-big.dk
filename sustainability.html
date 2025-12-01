@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+
+	<meta name="google" content="notranslate"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="language" content="en_EN"/>
+	<meta name="robots" content="NOODP"/>
+	<meta name="msnbot" content="NOODP"/>
+	<meta name="googlebot" content="NOODP"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"/>
+
+	<meta name="description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta property="og:description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta name="twitter:description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="BIG | Bjarke Ingels Group"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	
+			<title>BIG | Bjarke Ingels Group</title>
+		<meta property="og:title" content="BIG | Bjarke Ingels Group"/>
+		<meta property="og:url" content="https://big.dk/"/>
+		<meta property="og:image" content="https://big.dk/assets/images/share.jpg"/>
+		<meta property="og:image:secure_url" content="https://big.dk/assets/images/share.jpg"/>
+		<meta name="twitter:title" content="BIG | Bjarke Ingels Group"/>
+		<meta name="twitter:image" content="https://big.dk/assets/images/share.jpg"/>
+	
+	<meta name="msapplication-TileImage" content="/favicon.ico"/>
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="icon" href="favicon.ico" sizes="192x192"/>
+	<link rel="apple-touch-icon" href="favicon.ico"/>
+
+	<link rel="stylesheet" href="build/css/bundle.css" crossorigin>
+
+	
+</head>
+
+<body>
+<script>
+!function () {
+
+	function trackRedirect(redirectedPath) {
+		var eventName = 'redirect-to-pixel';
+		fetch('https://plausible.io/api/event', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'text/plain',
+			},
+			body: JSON.stringify({
+				n: eventName,
+				u: location.href,
+				d: 'big.dk',
+				r: document.referrer || null,
+				w: window.innerWidth,
+				h: 0,
+				p: JSON.stringify({ redirectedPath })
+			})
+		}).then(() => {
+			console.log('redirect tracked');
+		}).catch(() => {
+			console.log('redirect tracking failed');
+		});
+	}
+
+	var oldSiteProjectCodes = ["apmt","cmc","nye","sing","edu","sluis","flm","june","zrh","vstr","aph","gbv","vph","metz","ocxb","goe","jrc","treeh","neur","nabr","oosc","eset","120f","hbhq","fv","new","bist","hgkp","marsk","nasa2","wild","deep","vtciii","escr","oppoh","e126","hcc","pegasus","tfc","psi","nasa","bkb","wbc","apm","van","stro","twc","dbklyn","rivr","clm","wils","arc","kis","vejl","o4","meca","aar","form","ett","alto2","isom","panda","sfc","bqp","glce","t22","bhq","st7","acol","aball","luxo","wes1","dong","faer","sem","sbank","mipro","abad","klein","acg","eurc","trna","noma","rbdsf","sshq","ead","leg","mars","kak","gsun","mcb","lock","kgx","gce","tld","spff","hfz","laad","pdb","coco","hype","navy","con","w57","ark","xpav","skum","fcb","mol","wft","king","serp","tsp","nypd","pitt","2wtc","ghg","h2c","stc","bps","smi","gug","bsn7","maze","upp","hud","kim2","axl","bhs","hum","aht","sof","bbp","zoo","ol","mbs","hei","ess","klt","cym","pho","fgl","vin","suk","snm","yon","tcc","sbr","vvv","pier","mia","kim","lap","spp","far","son","gbs","tryg","kron","parc","vrn","vaga","qnm","tir","ice","nuuk","stp","e2","xpo","stl","audi","loop","vil","sk2","kube","8","tek","ger","hua","tam","for","tat","holy","anl","dtu","nyt","sib","wall","nice","ccc","str","wvws","gmo","yim","mont","zir","hoj","tlt","hos","utr","baw","kol","abu2","hot","bki","slu","wtc","abu1","mtn","w","arl","carl","cphx","pot","sca","bor","soro","hoa","war","sja","lil","m2","lego","kas","dun","ski","nyc","2kr","met","fur","isr","vib1","vib2","asp","nlp","jess","1","ech","bi","bat","psy","big","hol","mer","nab","pol","vm","kung","1st","bil","tiv","klm","bro","toj","dk","ren","lim","ldk","wwa","wib","aks","mar","sci","hav","www","epo","vej","sta","bla","bad","ktk","mag","mon","fre","bko","gem","oda","bbb","dbf"];
+	var projectsCodeWithSlug = JSON.parse(`[
+			]`);
+
+	var redirectPages = {
+		'/#about': '/about',
+		'/#jobs': '/careers',
+		'/#contact': '/people',
+		'/#news': '/news',
+		'/#awards': '/news',
+		'/#events': '/events',
+	};
+
+	var oldPages = {
+		'/#video': 'https://pixel.big.dk/#video',
+		'/#shop': 'https://pixel.big.dk/#shop',
+		'/#engineering': 'https://pixel.big.dk/#engineering',
+		'/#big-ideas': 'https://pixel.big.dk/#big-ideas',
+	};
+
+	var path = '/' + window.location.hash.toLowerCase();
+	if (redirectPages[path]) {
+		window.location.href = redirectPages[path];
+		return;
+	}
+
+	if (oldPages[path]) {
+		trackRedirect(path);
+		window.location.href = oldPages[path];
+		return;
+	}
+
+	if (!path.includes('/#projects-')) {
+		return;
+	}
+
+	var projectCode = (path.split('/#projects-')[1] || '').toLowerCase();
+	if (!projectCode) {
+		return;
+	}
+
+	var projectFound = projectsCodeWithSlug.find(function(p) { return p.code.toLowerCase() === projectCode; });
+	if (projectFound && projectFound.slug) {
+		window.location.href = `/projects/${projectFound.slug}`;
+		return;
+	}
+
+	if (oldSiteProjectCodes.includes(projectCode)) {
+		trackRedirect('/#projects-' + projectCode);
+		window.location.href = 'https://pixel.big.dk/#projects-' + projectCode;
+		return;
+	}
+}();
+</script>
+
+<div id="GlobalCursor">
+	<div class="pause"><img src="assets/svg/cursor/pause.svg"></div>
+	<div class="play"><img src="assets/svg/cursor/play.svg"></div>
+	<div class="arrow_right_white arrowBig"><img src="assets/svg/cursor/arrow_right_white.svg"></div>
+	<div class="arrow_left_white arrowBig"><img src="assets/svg/cursor/arrow_left_white.svg"></div>
+	<div class="arrow_right_small arrowSmall"><img src="assets/svg/cursor/arrow_right_small.svg"></div>
+	<div class="arrow_left_small arrowSmall"><img src="assets/svg/cursor/arrow_left_small.svg"></div>
+</div>
+
+
+<div id="SiteWrapper">
+	<div class="Intro">
+
+	<div class="bg"></div>
+
+	<div class="logoPlaceholder">
+		<svg width="45" height="20" viewBox="0 0 45 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M20 0V20H23.9944V0H20ZM44.0085 3.99435V0H28.0028V20H44.0085V8.00282H36.0056V11.9972H40.0141V15.9915H32.0113V3.99435H44.0085ZM11.9972 8.00282V0H0V20H16.0056V8.00282H11.9972V8.00282ZM3.99435 3.99435H8.00282V8.00282H3.99435V3.99435ZM11.9972 16.0056H3.99435V11.9972H11.9972V16.0056Z" fill="white"/>
+		</svg>
+	</div>
+
+	<div class="letters">
+		<div class="letter">L</div>
+		<div class="letter">E</div>
+		<div class="letter">A</div>
+		<div class="letter">P</div>
+		<div class="letter lastLetter">P</div>
+	</div>
+
+</div>
+	<div class="MainMenu">
+	<div class="bgBar"></div>
+
+	<div class="logo">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 98">
+			<polyline class="stroke letter-b-1" points="9.82 78.44 9.82 9.82 49.04 9.82 49.04 39.27" style="stroke-dasharray: 138.29; stroke-dashoffset: 0px;"></polyline>
+			<polyline class="stroke letter-b-2" points="68.67,78.44 68.67,49.04 19.63,49.04" style="stroke-dasharray: 79.44; stroke-dashoffset: 0px;"></polyline>
+			<line class="stroke letter-b-3" y1="88.26" x2="78.44" y2="88.26"></line>
+			<rect class="letter-i" width="19.63" height="98.08" x="98.08" y="0" data-svg-origin="107.89500141143799 49.040000915527344" style="transform-origin: 0px 0px;"
+				  transform="matrix(1,0,0,1,0,0)"></rect>
+			<line class="stroke letter-g-1" x1="137.25" y1="9.82" x2="215.7" y2="9.82"></line>
+			<polyline class="stroke letter-g-2" points="147.07,19.63 147.07,88.26 205.88,88.26 205.88,49.04 176.52,49.04" style="stroke-dasharray: 197.02; stroke-dashoffset: 0px;"></polyline>
+		</svg>
+	</div>
+
+	<div class="searchBg"></div>
+
+	<div class="container itemContainer">
+		<div class="innerContainer">
+
+
+			<div class="mobileButton">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+				<div class="line4"></div>
+			</div>
+			<div class="items mainFilter">
+				<div class="item" data-value="landscape" data-id="0" data-main="true">LANDSCAPE</div>
+				<div class="item" data-value="engineering" data-id="1" data-main="true">ENGINEERING</div>
+				<div class="item" data-value="architecture" data-id="2" data-main="true">ARCHITECTURE</div>
+				<div class="item" data-value="planning" data-id="3" data-main="true">PLANNING</div>
+				<div class="item noMarginRight" data-value="products" data-id="4" data-main="true">PRODUCTS</div>
+
+				
+				<div class="MenuSearch" data-terms="Completed,France,Education,Museum,Sustainability">
+					<div class="inner">
+						<div class="filterCount"></div>
+						<div class="icon">
+							<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="7.5" cy="5.5" r="4.5" stroke="black"/>
+								<path d="M4 9L1 12" stroke="black"/>
+							</svg>
+						</div>
+						<div class="lockedTerms"></div>
+						<input type="text" id="search" autocomplete="off" aria-label="Search for projects" value="" class="searchInput"/>
+						<div class="sidebar">
+							<div class="autoComplete"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="secondaryMenuBar">
+				<div class="inner">
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> LANDSCAPE</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="landscape" data-value="landscape" data-id="5">View all</div>
+						<div class="subItem item" data-leapp="landscape" data-value="public realm" data-id="6">Public Realm</div>
+						<div class="subItem item" data-leapp="landscape" data-value="parks" data-id="7">Parks</div>
+						<div class="subItem item" data-leapp="landscape" data-value="gardens" data-id="8">Gardens</div>
+						<div class="subItem item" data-leapp="landscape" data-value="terraces" data-id="9">Terraces</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> ENGINEERING</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="engineering" data-value="engineering" data-id="10">View all</div>
+						<div class="subItem item" data-leapp="engineering" data-value="structure" data-id="11">Structure</div>
+						<div class="subItem item" data-leapp="engineering" data-value="simulation" data-id="12">Simulation</div>
+						<div class="subItem item" data-leapp="engineering" data-value="sustainability" data-id="13">Sustainability</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> ARCHITECTURE</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="architecture" data-value="architecture" data-id="14">View all</div>
+						<div class="subItem item" data-leapp="architecture" data-value="culture" data-id="15">Culture</div>
+						<div class="subItem item" data-leapp="architecture" data-value="education" data-id="16">Education</div>
+						<div class="subItem item" data-leapp="architecture" data-value="work" data-id="17">Work</div>
+						<div class="subItem item" data-leapp="architecture" data-value="hospitality" data-id="18">Hospitality</div>
+						<div class="subItem item" data-leapp="architecture" data-value="residential" data-id="19">Residential</div>
+						<div class="subItem item" data-leapp="architecture" data-value="infrastructure" data-id="20">Infrastructure</div>
+						<div class="subItem item" data-leapp="architecture" data-value="space" data-id="21">Space</div>
+						<div class="subItem item" data-leapp="architecture" data-value="interiors" data-id="22">Interiors</div>
+						<div class="subItem item" data-leapp="architecture" data-value="sports" data-id="23">Sports</div>
+						<div class="subItem item" data-leapp="architecture" data-value="health" data-id="24">Health</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> PLANNING</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="planning" data-value="planning" data-id="25">View all</div>
+						<div class="subItem item" data-leapp="planning" data-value="campus" data-id="26">Campus</div>
+						<div class="subItem item" data-leapp="planning" data-value="city" data-id="27">City</div>
+						<div class="subItem item" data-leapp="planning" data-value="region" data-id="28">Region</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> PRODUCTS</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="products" data-value="products" data-id="29">View all</div>
+						<div class="subItem item" data-leapp="products" data-value="lighting" data-id="30">Lighting</div>
+						<div class="subItem item" data-leapp="products" data-value="furniture" data-id="31">Furniture</div>
+						<div class="subItem item" data-leapp="products" data-value="consumer products" data-id="32">Consumer products</div>
+						<div class="subItem item" data-leapp="products" data-value="mobility" data-id="33">Mobility</div>
+						<div class="subItem item" data-leapp="products" data-value="installations" data-id="34">Installations</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="submenu">
+		<div class="container">
+			<div class="links">
+				<a href="index.html" class="menuItem">PROJECTS</a><br>
+				<a href="news.html" class="menuItem">NEWS</a><br>
+				<a href="about.html" class="menuItem">ABOUT</a><br>
+				<a href="sustainability.html" class="menuItem">SUSTAINABILITY</a><br>
+				<a href="people.html" class="menuItem">PEOPLE</a><br>
+				<a href="careers.html" class="menuItem">CAREERS</a><br>
+				<div class="contact menuItem">CONTACT</div><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div id="TemplateLayer">
+			<div data-template="SustainabilityTemplate" data-title="Big | Sustainability" class="template SustainabilityTemplate">
+
+		<div class="container">
+			<div class="innerContainer">
+				<h1 class="subPageTitle">SUSTAINABILITY</h1>
+				<div class="items">
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/Untitled-1-1.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>SUSTAINABLE MANUFACTURING</b>
+								</div>
+								<div class="mainText">
+
+																			<p>The Plus is the first factory building in the world that meets the BREEAM Outstanding certification’s strict environmental requirements for safe, healthy, and good physical working environments. Constructed in just 18 months, the 7,000 m² production facility is made of local PEFC-certified cross-laminated timber (CLT) and glued-laminated timber (glulam), low-carbon concrete, and recycled steel.</p><br />
+<p>The square roof above the office area is one of only two concrete elements in the building alongside the foundation, both made from a mixture of high-strength and low-carbon concrete to minimize emissions and material use.</p><br />
+<p>The factory’s energy and heating demands are partly met with the help of 900 rooftop solar panels which generate about 250,000 kWh of renewable energy annually, 17 geothermal wells, and heat pumps hidden behind the walls to capture excess energy from the process of drying the components and convert it into heat that is then fed back into the production line and used to warm the building.</p><br />
+<p>Hidden behind the walls of each wing is a technical corridor, in which waste products from the manufacturing process are recycled for reuse. Here, the water needed for washing metal components is cleaned and filtered so that 90% of it can be cycled back into the process, while wood chips and sawdust are collected and sent off to a biomass power plant to be burned for electricity.</p><br />
+<p>Every aspect of the design is based on principles of renewable and clean energy to match Vestre’s eco-friendly production, such as ensuring a minimum of 50% lower greenhouse gas emissions than comparable factories.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0002_Google-Bay-View-22-04-BIG-THA-5816-1.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>NET-ZERO &#038; OPERATIONS</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Located on a 42-acre site at the NASA Ames Research Center, Google’s Bay View campus consists of three buildings totaling 1.1 million square feet and approximately 18 acres of open space. The all-electric campus has achieved a LEED-NC v4 Platinum certification—making it the largest LEED v4 BD+C: NC Platinum certified project in the world—and has become the largest facility ever to attain the International Living Future Institute (ILFI) Living Building Challenge (LBC) Water Petal Certification.</p><br />
+<p>On the exterior, the buildings feature a first-of-its-kind “dragonscale” solar skin roof equipped with 50,000 silver solar panels that generate a total of nearly four megawatts of energy, approximately 40% of the buildings’ annual energy use.</p><br />
+<p>The clerestory windows dotting the canopy bring in abundant natural light into the workspaces, and a highly efficient HVAC system helps cut down on overall energy use. Combining on-site renewable energy generation with fulfillment of the majority of heating and cooling needs by geothermal systems, in combination with reducing energy needs via passive design measures, means that the Google Bay View HQ contributes substantially to Google’s goal of achieving net-zero emissions by 2030.</p><br />
+<p>The integrated geothermal pile system at Bay View is the largest in North America, estimated to reduce carbon emissions by roughly 50%: of 3,900 structural piles, 2,200 are utilized for geothermal and contain embedded pipes connected to heat recovery chillers that move heat energy from one place to another. These heat recovery chillers connected to the geothermal system also generate domestic hot water for the buildings. In the winter, the campus recovers heat from the ground and uses it to warm the building. In the summer, the buildings are cooled by capturing heat from the air and, instead of evaporating it with water, transferring it directly to the ground via the geothermal system. This means the campus is able to reduce the amount of water used for cooling at Bay View by 90%, which equates to 5 million gallons of water annually.</p><br />
+<p>To help deliver on Google’s commitment to replenish 120% of the water the HQ consumes by 2030, the site is net water-positive, with all non-potable water demands being met using the recycled water it generates on site. The on-site systems built by Google collect, treat, and reuse all stormwater and wastewater and provide habitat restoration, sea level rise protection, and access to the beauty of natural wetlands for both Googlers and the public on the nearby Bay Trail. The campus includes 17.3 acres of high-value natural areas—35% of the site is dedicated to promoting urban agriculture through native pollinator habitat, demonstration garden beds, and bee boxes while wet meadows, woodlands, and marsh contribute to Google’s broader efforts to reestablish missing essential habitat in the Bay Area.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0000_Skypark-Business-Center-24.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>THE FUTURE OF TIMBER CONSTRUCTION</b>
+								</div>
+								<div class="mainText">
+
+																			<p>From bringing the first heavy timber building to the iconic Johns Hopkins University Homewood campus to building the first timber terminal at Zurich Airport, BIG is adopting timber as a core material in our architecture across all building scales and types.</p><br />
+<p>Skypark Business Center is one of Europe’s largest wooden buildings and the first in an ambitious master plan that aims to turn the Luxembourg airport district into a thriving economic hub. Located in Findel adjacent to terminal A, the project is not only a landmark to visitors entering the country but also to Luxembourg’s architectural and sustainability ambitions.</p><br />
+<p>The building design takes a holistic approach to sustainability, addressing environmental, economic, and social aspects. Its sustainable practices respond to growing concerns over resource scarcity and climate change, focusing on reducing energy consumption, material waste, and emissions in construction. The building’s upper structure uses 15,000 m³ of CE-conforming and FSC-certified timber, a renewable, biogenic material with a substantially lower carbon footprint than conventional building materials such as concrete and steel. The timber structure also serves as a carbon sink, reducing carbon in the planet’s atmosphere during the life of the building. The use of the advanced timber technology led to the development of new construction regulations in Luxembourg, supported by extensive studies carried out during the design process.</p><br />
+<p>Water management is another key element of the building’s sustainable design. Extensive green roofs and terraces assist with stormwater management, absorbing rainwater while also helping to insulate the building and reduce the urban heat island effect. A rainwater harvesting system stores up to 150 m³ of water for irrigation, and potable water use by building occupants is reduced due to sensor-activated systems that minimize water use.</p><br />
+<p>The health and well-being of occupants are central to the building’s design. The façade incorporates a double-skin system that optimizes natural ventilation, prevents overheating, and enhances comfort. Despite the proximity to the airport, the design ensures high indoor air quality via the use of filtered cavities that enable ventilation without exposing the interior to external pollutants. Green rooftop gardens and terraces are designed with vegetation that considers local wildlife and adheres to airport security requirements, creating green pedestrian paths and relaxation areas that support the mental and physical health of occupants.</p><br />
+<p>Skypark Business Center is equipped with smart building technologies that monitor and optimize energy use. Sensors collect real-time data on room occupancy, weather, and other factors to improve the efficiency of heating, cooling, and electricity usage. The system also facilitates contactless access through a mobile app, reducing the use of plastic fobs and paper.</p><br />
+<p>Skypark’s commitment to sustainability is further emphasized by targeting BREEAM Excellent, WELL Gold, and WELL Platinum certifications.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0005_copyright_laurianghinitoiu_big_hq_02.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>UNI-GREEN CONCRETE</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Located on a narrow pier in Copenhagen’s Nordhavn neighborhood, BIG’s new headquarters is a 27-meter-tall, 7-storey structure, anchored in the city harbor’s industrial heritage. The building embodies the first application of Uni-Green concrete, developed in collaboration with Unicon, where the cement clinker is replaced with calcined clay and lime filler, representing a CO2 reduction of approximately 25% compared to traditional concrete. Tested and developed during construction, BIG HQ stands as a testament to the durability and potential of the Uni-Green, as well as a pioneer project not only in terms of materials but also in building methods—pushing the boundaries for the possibilities of concrete.</p><br />
+<p>The building integrates solar and geothermal energy systems that contribute to a 60% reliance on renewable energy, covering 84% of the building’s heat demand and 100% of the cooling demand. The latest Life Cycle Assessment completed in accordance with the Danish Standard BR18:2020 indicates a carbon-equivalency impact of 11.3 kg CO2e per square meter per year of building life. The building is designed to achieve DGNB Gold.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0004_JRC_DD_Aerial-02.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>HARVESTING SOLAR ENERGY</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Located at the former EXPO ´92 site in Isla de la Cartuja, the new 9,900 m² building for the European Commission ties into the City of Sevilla’s goal to become a global benchmark for sustainability by 2025 and the local vision of the eCity Sevilla project to decarbonize and transition Isla de la Cartuja to 100% renewable energy sources.</p><br />
+<p>Informed by the shaded plazas and streets of Seville, BIG proposes to cover the entire project site with a cloud of solar canopies sheltering the plaza, garden, and research building underneath, akin to the pergolas typical to Seville. The canopies consist of square lightweight PV sheets supported by slender columns. The roofscape cascades down from the center to a human-scale height at its periphery, creating a variety of public spaces underneath.</p><br />
+<p>The passive design of the building through its shallow floorplate and constant shading under the pergola cloud enables natural cross ventilation and ideal light qualities, reducing the energy consumption typically used on artificial lighting, air conditioning, and mechanical ventilation. The design prioritizes locally sourced materials, such as limestone, wood, and ceramic tiling. The structure is low-carbon concrete, reducing up to 30% of typical CO2 emissions, while the pergola cloud is made from recycled steel. Outdoor gardens, greenery from the region, and water elements reduce/eliminate the heat island effect and create a comfortable microclimate.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/2024/10/DYMAK_AERIAL.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>HOLISTIC REDUCTION OF EMBODIED AND OPERATIONAL CARBON</b>
+								</div>
+								<div class="mainText">
+
+																			<p>The mission for Dymak’s new HQ was to be the most sustainable office building in Denmark, which has resulted in a building form optimized to reduce embodied carbon content, reduce energy needs, increase on-site energy production, and to ensure a high level of occupant well-being.</p><br />
+<p>The round shape provides a continuously connected interior experience, while the varying roof height buffers occupants from the noise of the adjacent highway while optimizing views to nature on the opposite side of the building. The form of the roof has been determined by orienting a series of 880 photovoltaic panels, consisting of 11 unique shapes, such that solar radiation potential is optimized for energy production.</p><br />
+<p>Reducing carbon emissions was a driver of all material choices on the project, from the mixed timber and precast concrete structure to the interior finishes. Early studies included assessments of the carbon and cost impact of various structural materials and grid dimensions, with the results used to drive the architectural design. As the design progressed, meticulous studies were completed for almost all interior materials, enabling a selection of finishes with low embodied carbon while maintaining a high quality of materiality.</p><br />
+<p>Currently under construction, the Dymak Headquarters is set to achieve DGNB Gold and Heart Certification. Current Life-Cycle Analysis (LCA) results—completed in accordance with Danish Standard BR18:2020—indicate a carbon-equivalency impact of 10.5 kgCO2e per square meter per year of life of the building.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0001_R_Hjortshoj-Flugt-PRESS-24.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>REUSING EXISTING BUILDINGS</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Located at the site of Denmark’s largest refugee camp from World War II, BIG has adapted and extended one of the camp’s few remaining structures—a hospital building—into a 1,600 m² museum.</p><br />
+<p>From the very beginning of the design process, it was vital for BIG and the client, Vardemuseerne, to preserve the two hospital buildings. The buildings are some of the last remaining physical manifestations of the former refugee camp, and not only is their preservation invaluable for future generations to understand the past and the present, the buildings also directly informed our design of the extension by means of their unique elongated form, structure, and materiality.</p><br />
+<p>FLUGT is an example of how adaptive reuse can result in sustainable, functional, and beautiful buildings that preserve our shared history while standing out architecturally.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0003_V23_Royal-Boulevard.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>RE-USE, REGENERATION, &#038; RESILIENCE IN PLANNING</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Bhutan has a unique context and approach to sustainability: it is a carbon-negative country and global biodiversity hotspot with a commitment to supporting its population’s well-being through the Gross National Happiness index (GNH). Three quarters of Bhutan’s geographical area is forest, and the constitution mandates maintaining at least 60% forest cover in perpetuity. It is home to many endemic, endangered, and rare species across a variety of landscapes from mountains to interweaving rivers and floodplains.</p><br />
+<p>Located in the town of Gelephu in Southern Bhutan, the 2,500 km² masterplan titled ‘Gelephu Mindfulness City’ (GMC) by BIG, Arup, and Cistri is informed by Bhutanese culture, the principles of the GNH, and the country’s strong spiritual heritage. To guide the work over the next 100 years from design through construction and operation, the design team has developed a bespoke draft sustainability framework to help achieve Bhutan’s sustainability aspirations, provide resilient social and economic infrastructure, and opportunities to counter its current socioeconomic challenges whilst retaining the natural and cultural core principles that make the country so unique.</p><br />
+<p>The masterplan framework prioritizes conservation and ecological enhancement by not only preserving all existing forests for a total cover of the site of 85% but also creating new ecological corridors and forested areas to support wildlife habitats. This approach will strengthen biodiversity, ensure long-term environmental health, and limit the development land to only 4% of the total project site. Our approach to resilience embraces nature-based solutions, allowing the 35 Natural Rivers and 500+ Creeks to naturally expand their space, minimizing reliance on engineered flood control solutions. By enhancing the natural waterways and converting them into swales, we can manage stormwater effectively, particularly during flood events, using these natural processes.</p><br />
+<p>For both architecture and landscape, we propose the use of locally sourced materials such as river stone, bamboo, and timber. By limiting building heights to a maximum of 6 floors, with an average FAR of 0.9, we significantly reduce the need for structural concrete or steel, lowering the environmental impact of construction. Rather than demolishing existing structures and roads, we will focus on renovating and repurposing them, maintaining the site’s history and reducing waste from construction. The masterplan emphasizes creating a vibrant, human-centered environment with lively streets and public spaces designed to encourage outdoor social interaction. These spaces will foster community engagement and well-being.</p><br />
+<p>The city will be fully powered by renewable energy, with the construction of 2 new dams on the western side of the site, with a particular focus on hydropower and a supplementary mix of solar panels. The energy produced will greatly exceed local demand, ensuring sufficient power for data centers, machine learning, and energy-intensive activities like mining, all sustained by a clean, renewable energy supply. Most of the existing agricultural fields will be preserved and enhanced, ensuring the city can produce its own food locally. This will promote food security and reduce reliance on external sources.</p><br />
+<p>The masterplan is designed to be highly sustainable for mobility by prioritizing pedestrians and public transportation, following the principles of the 15-minute city. Every district is efficiently connected by trackless trams in flat zones and cable cars for uphill areas, with stops spaced evenly across the development area at 1 km intervals. Surrounding these stops are public spaces, mixed-use developments, and essential amenities, all of which reduce the need for long trips within the city. This results in a significant reduction of private vehicle use, with an estimated mode share of only 8% for cars, compared to 38% for public transport and 56% for soft micro-mobility. Streets are limited to a maximum of four vehicular lanes, allowing for much more expansive pedestrian zones, linear parks, and recreational boulevards, further enhancing the sustainable urban landscape.</p><br />
+<p>Finally, the masterplan will adopt best practices in sustainability standards and aims to create a new certification system. This system will measure not only carbon emission reduction targets but also social and environmental sustainability, with a special focus on individual health and spirituality. By addressing holistic well-being, GMC sets a new benchmark in city planning that integrates environmental stewardship with human-centered, mindful living practices.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/0_0006_20221125-104409-5106.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>ENHANCING NATURAL HABITATS &#038; BIODIVERSITY</b>
+								</div>
+								<div class="mainText">
+
+																			<p>The Treehotel in Swedish Lapland is known for its broad variety of cabins, with each one having a distinct identity that responds and interacts differently with the surrounding forest. BIG’s aim was to amplify Treehotel’s focus on sustainability and natural tourism and create a resilient design in a region with strong seasonal climatic contrasts.</p><br />
+<p>Inventories in Norrbotten County, carried out by ornithologists and the County Administrative Board, show that a number of different bird populations are decreasing due to forestry and climate change.</p><br />
+<p>Designed in collaboration with Treehotel and Swedish ornithologist Ulf Öhman, the Biosphere cabin brings 350 birdhouses to the Harads village, with the mission to decrease the downward spiral of the bird and bat population in the region.</p><br />
+
+									
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+					
+						
+						
+						<div class="item " data-category="DEFAULT">
+							<div class="date">&nbsp;</div>
+							<div class="col1">
+								<div class="imageContainer">
+									<img data-src="https://ik.imagekit.io/dlnx2cwu4w/https://live-big-cms.pantheonsite.io/wp-content/uploads/2022/11/MicrosoftTeams-image-8.jpg" width="1012" height="700"
+										 class="lazyload">
+								</div>
+							</div>
+							<div class="col2">
+								<div class="headline">
+									<b>PLAN FOR THE PLANET</b>
+								</div>
+								<div class="mainText">
+
+																			<p>Plan for the Planet is a research project that aims to establish a plan for achieving a carbon neutral planet Earth in 10 years, while addressing the fundamental challenges of energy, transport, resources, biodiversity, resilience, pollution, water, food, and prosperous living conditions for a world with up to 10 billion inhabitants.</p><br />
+
+									
+																			<a href="https://planforplanet.org/" target="_blank" class="externalLink"><span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg></span></a>
+
+																	</div>
+								<div class="readmore"><span class="label">READ MORE</span><span class="plus">+</span></div>
+							</div>
+						</div>
+									</div>
+			</div>
+		</div>
+
+	</div>
+	</div>
+
+	<div class="centerMarkerHorizontal"></div>
+	<div class="centerMarkerVertical"></div>
+
+	<div class="Footer">
+	<div class="container">
+		<div class="innerContainer">
+			<div class="items">
+								<div class="item col-start-1 col-end-3">
+					<input type="radio" name="footer" id="footer-email" />
+					<label for="footer-email" class="button">
+						EMAIL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-email">
+																					<div class="footer-email-text">NEW PROJECTS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#234d4654414a5963414a440d4748"><span class="__cf_email__" data-cfemail="aec0cbd9ccc7d4eeccc7c980cac5">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">PRESS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#63131106101023010a044d0708"><span class="__cf_email__" data-cfemail="e49496819797a4868d83ca808f">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">LECTURES</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#5a363f392e2f283f291a38333d743e31"><span class="__cf_email__" data-cfemail="711d14120504031402311318165f151a">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">EXHIBITIONS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#1b7e63737279726f727475685b79727c357f70"><span class="__cf_email__" data-cfemail="e7829f8f8e858e938e888994a7858e80c9838c">[email&#160;protected]</span></a>
+							</div>
+																				</div>
+					</div>
+				</div>
+
+				<div class="item col-start-2 col-end-4">
+					<input type="radio" name="footer" id="footer-offices" />
+					<label for="footer-offices" class="button">
+						OFFICES
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-offices">
+																					<input type="radio" name="footer-office" id="footer-office-Copenhagen" checked />
+							<label for="footer-office-Copenhagen" class="footer-offices-location">Copenhagen</label>
+							<div class="footer-offices-text"><p>Sundkaj 165<br />
+2150, Nordhavn<a href="https://goo.gl/maps/R1pmtHqp4Gkqsjtz8" target="_blank" rel="noopener"><br />
+</a>Copenhagen, DK<br />
++45 7221 7227<br />
++45 3512 7227<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#e487948ca4868d83ca808f"><span class="__cf_email__" data-cfemail="c4a7b4ac84a6ada3eaa0af">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-London"  />
+							<label for="footer-office-London" class="footer-offices-location">London</label>
+							<div class="footer-offices-text"><p>1 Finsbury Avenue<br />
+London EC2M 2PF<br />
+United Kingdom<br />
++44 20 3735 4996<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#f69a9998b6949f91d8929d"><span class="__cf_email__" data-cfemail="b5d9dadbf5d7dcd29bd1de">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Barcelona"  />
+							<label for="footer-office-Barcelona" class="footer-offices-location">Barcelona</label>
+							<div class="footer-offices-text"><p><span class="ui-provider eo bnc bnd bne bnf bng bnh bni bnj bnk bnl bnm bnn bno bnp bnq bnr bns bnt bnu bnv bnw bnx bny bnz boa bob boc bod boe bof bog boh boi boj" dir="ltr">Ronda de Sant Pere, 56 </span><span class="ui-provider eo bnc bnd bne bnf bng bnh bni bnj bnk bnl bnm bnn bno bnp bnq bnr bns bnt bnu bnv bnw bnx bny bnz boa bob boc bod boe bof bog boh boi boj" dir="ltr">Bajos</span><br />
+08010 Barcelona<br />
+Spain<br />
++34 610 029 747<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#6d0f0e032d0f040a430906"><span class="__cf_email__" data-cfemail="0b6968654b69626c256f60">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-New York"  />
+							<label for="footer-office-New York" class="footer-offices-location">New York</label>
+							<div class="footer-offices-text"><p>45 Main Street, 9th Floor<br />
+Brooklyn, NY 11201<br />
+United States<br />
++1 347 549 4141<br />
++1 866 738 4336<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#3d53445e7d5f545a135956"><span class="__cf_email__" data-cfemail="92fcebf1d2f0fbf5bcf6f9">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Shanghai"  />
+							<label for="footer-office-Shanghai" class="footer-offices-location">Shanghai</label>
+							<div class="footer-offices-text"><p><span data-teams="true"><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">363 Chang Ping Road, FL 6<br />
+Jing An District, Shanghai</span></span><br />
+China<br />
++86 181 0755 4020<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#a4d7ccc5e4c6cdc38ac0cf"><span class="__cf_email__" data-cfemail="cfbca7ae8fada6a8e1aba4">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Los Angeles"  />
+							<label for="footer-office-Los Angeles" class="footer-offices-location">Los Angeles</label>
+							<div class="footer-offices-text"><p>310 Wilshire Boulevard,<br />
+2nd floor<br />
+Santa Monica, 90401<br />
+California<br />
+<span data-teams="true"><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">+1 310 692 7280</span></span><br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#1a767b625a78737d347e71"><span class="__cf_email__" data-cfemail="59353821193b303e773d32">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Zürich"  />
+							<label for="footer-office-Zürich" class="footer-offices-location">Zürich</label>
+							<div class="footer-offices-text"><p>Planergemeinschaft Raumfachwerk<br />
+Flughafenstrasse 90<br />
+8302 Kloten<br />
+Switzerland<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#b3d1dad4c9c1dbf3d1dad49dd7d8"><span class="__cf_email__" data-cfemail="a4c6cdc3ded6cce4c6cdc38ac0cf">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Oslo"  />
+							<label for="footer-office-Oslo" class="footer-offices-location">Oslo</label>
+							<div class="footer-offices-text"><p>St. Olavs Plass 5<br />
+0165 Oslo<br />
+Norway<br />
++47 463 84 511<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#610e120d210308064f050a"><span class="__cf_email__" data-cfemail="6d021e012d0f040a430906">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Riyadh"  />
+							<label for="footer-office-Riyadh" class="footer-offices-location">Riyadh</label>
+							<div class="footer-offices-text"><p><span data-teams="true">King Abdullah Financial District<br />
+Innovation Blvd &#8211; Building 4.07<br />
+Riyadh 13519<br />
+Kingdom of Saudi Arabia<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#e18a9280a1838886cf858a"><span class="__cf_email__" data-cfemail="5239213312303b357c3639">[email&#160;protected]</span></a></span></p>
+</div>
+																				</div>
+					</div>
+				</div>
+
+				<div class="item col-start-3 col-end-4">
+					<input type="radio" name="footer" id="footer-social" />
+					<label for="footer-social" class="button">
+						SOCIAL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-socials">
+																					<a href="https://www.instagram.com/big_builds/" target="_blank" class="footer-social-link">
+								Instagram
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://twitter.com/BIG_Architects" target="_blank" class="footer-social-link">
+								X
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://www.linkedin.com/company/big---bjarke-ingels-group/" target="_blank" class="footer-social-link">
+								LinkedIn
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://vimeo.com/user1395824" target="_blank" class="footer-social-link">
+								Vimeo
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://www.facebook.com/bjarke.ingels.group" target="_blank" class="footer-social-link">
+								Facebook
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+																					<a href="http://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI" target="_blank" class="footer-social-qrcode">
+								<div class="footer-social-qrcode-link">
+									WECHAT
+									<span class="arrow">
+										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2 1H9V8" stroke="black"/>
+										<path d="M9 1L1 9" stroke="black"/>
+										</svg>
+									</span>
+								</div>
+								<img alt="Bjarke Ingels Group WeChat QR Code" src="https://live-big-cms.pantheonsite.io/wp-content/uploads/2023/08/BIG-Icon_WeChat-QR-Code.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-start-4 col-end-5">
+					<input type="radio" name="footer" id="footer-legal" />
+					<label for="footer-legal" class="button">
+						LEGAL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-legal">
+																					<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf" target="_blank">BIG’s Anti-Slavery and Human Trafficking Statement 2018</a>
+														<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/privacy-policy-bigdk.pdf" target="_blank">BIG’s Privacy Policy 2024</a>
+														<a class="footer-legal-link" href="https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079" target="_blank">BIG UN Global Compact Report</a>
+														<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf" target="_blank">BIG’s Annual Sustainability Report, 2023</a>
+																					<a class="footer-legal-link" href="ethics-hotline.html">Ethics Hotline</a>
+						</div>
+					</div>
+				</div>
+							</div>
+			<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+				document.querySelectorAll('.Footer .items .item label').forEach(function(label) {
+					var input = label.previousElementSibling;
+					label.addEventListener('click', function() {
+						if (input.checked) {
+							setTimeout(function() { 
+								input.checked = false; 
+							}, 5); 
+						}
+					});
+				});
+			</script>
+		</div>
+
+		<div class="backToTop">
+			<div class="arrow">
+				<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.519531 4.63672L4.15601 1.00024L7.79249 4.63672" stroke="#797979"/>
+					<path d="M4.15598 1.00027V9.31223" stroke="#797979"/>
+				</svg>
+			</div>
+			<p class="label">BACK TO TOP</p>
+			<div class="arrow">
+				<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.519531 4.63672L4.15601 1.00024L7.79249 4.63672" stroke="#797979"/>
+					<path d="M4.15598 1.00027V9.31223" stroke="#797979"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+	//Safari 10 nomodule fix:
+	!function () {
+		var e = document, t = e.createElement('script');
+		if (!('noModule' in t) && 'onbeforeload' in t) {
+			var n = !1;
+			e.addEventListener('beforeload', function (e) {
+				if (e.target === t) n = !0; else if (!e.target.hasAttribute('nomodule') || !n) return;
+				e.preventDefault();
+			}, !0), t.type = 'module', t.src = '.', e.head.appendChild(t), t.remove();
+		}
+	}();
+</script>
+
+<script type="module" src="build/js/main.js" crossorigin></script>
+<script nomodule src="https://big.dk/build/js/main.legacy.js?1763424000" crossorigin></script>
+<script defer data-domain="big.dk" src="https://plausible.io/js/script.js"></script>
+
+</body>
+</html>

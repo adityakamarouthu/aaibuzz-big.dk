@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+
+	<meta name="google" content="notranslate"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="language" content="en_EN"/>
+	<meta name="robots" content="NOODP"/>
+	<meta name="msnbot" content="NOODP"/>
+	<meta name="googlebot" content="NOODP"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"/>
+
+	<meta name="description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta property="og:description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta name="twitter:description"
+			content="BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us."/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="BIG | Bjarke Ingels Group"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	
+			<title>BIG | Bjarke Ingels Group</title>
+		<meta property="og:title" content="BIG | Bjarke Ingels Group"/>
+		<meta property="og:url" content="https://big.dk/"/>
+		<meta property="og:image" content="https://big.dk/assets/images/share.jpg"/>
+		<meta property="og:image:secure_url" content="https://big.dk/assets/images/share.jpg"/>
+		<meta name="twitter:title" content="BIG | Bjarke Ingels Group"/>
+		<meta name="twitter:image" content="https://big.dk/assets/images/share.jpg"/>
+	
+	<meta name="msapplication-TileImage" content="/favicon.ico"/>
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="icon" href="favicon.ico" sizes="192x192"/>
+	<link rel="apple-touch-icon" href="favicon.ico"/>
+
+	<link rel="stylesheet" href="build/css/bundle.css" crossorigin>
+
+	
+</head>
+
+<body>
+<script>
+!function () {
+
+	function trackRedirect(redirectedPath) {
+		var eventName = 'redirect-to-pixel';
+		fetch('https://plausible.io/api/event', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'text/plain',
+			},
+			body: JSON.stringify({
+				n: eventName,
+				u: location.href,
+				d: 'big.dk',
+				r: document.referrer || null,
+				w: window.innerWidth,
+				h: 0,
+				p: JSON.stringify({ redirectedPath })
+			})
+		}).then(() => {
+			console.log('redirect tracked');
+		}).catch(() => {
+			console.log('redirect tracking failed');
+		});
+	}
+
+	var oldSiteProjectCodes = ["apmt","cmc","nye","sing","edu","sluis","flm","june","zrh","vstr","aph","gbv","vph","metz","ocxb","goe","jrc","treeh","neur","nabr","oosc","eset","120f","hbhq","fv","new","bist","hgkp","marsk","nasa2","wild","deep","vtciii","escr","oppoh","e126","hcc","pegasus","tfc","psi","nasa","bkb","wbc","apm","van","stro","twc","dbklyn","rivr","clm","wils","arc","kis","vejl","o4","meca","aar","form","ett","alto2","isom","panda","sfc","bqp","glce","t22","bhq","st7","acol","aball","luxo","wes1","dong","faer","sem","sbank","mipro","abad","klein","acg","eurc","trna","noma","rbdsf","sshq","ead","leg","mars","kak","gsun","mcb","lock","kgx","gce","tld","spff","hfz","laad","pdb","coco","hype","navy","con","w57","ark","xpav","skum","fcb","mol","wft","king","serp","tsp","nypd","pitt","2wtc","ghg","h2c","stc","bps","smi","gug","bsn7","maze","upp","hud","kim2","axl","bhs","hum","aht","sof","bbp","zoo","ol","mbs","hei","ess","klt","cym","pho","fgl","vin","suk","snm","yon","tcc","sbr","vvv","pier","mia","kim","lap","spp","far","son","gbs","tryg","kron","parc","vrn","vaga","qnm","tir","ice","nuuk","stp","e2","xpo","stl","audi","loop","vil","sk2","kube","8","tek","ger","hua","tam","for","tat","holy","anl","dtu","nyt","sib","wall","nice","ccc","str","wvws","gmo","yim","mont","zir","hoj","tlt","hos","utr","baw","kol","abu2","hot","bki","slu","wtc","abu1","mtn","w","arl","carl","cphx","pot","sca","bor","soro","hoa","war","sja","lil","m2","lego","kas","dun","ski","nyc","2kr","met","fur","isr","vib1","vib2","asp","nlp","jess","1","ech","bi","bat","psy","big","hol","mer","nab","pol","vm","kung","1st","bil","tiv","klm","bro","toj","dk","ren","lim","ldk","wwa","wib","aks","mar","sci","hav","www","epo","vej","sta","bla","bad","ktk","mag","mon","fre","bko","gem","oda","bbb","dbf"];
+	var projectsCodeWithSlug = JSON.parse(`[
+			]`);
+
+	var redirectPages = {
+		'/#about': '/about',
+		'/#jobs': '/careers',
+		'/#contact': '/people',
+		'/#news': '/news',
+		'/#awards': '/news',
+		'/#events': '/events',
+	};
+
+	var oldPages = {
+		'/#video': 'https://pixel.big.dk/#video',
+		'/#shop': 'https://pixel.big.dk/#shop',
+		'/#engineering': 'https://pixel.big.dk/#engineering',
+		'/#big-ideas': 'https://pixel.big.dk/#big-ideas',
+	};
+
+	var path = '/' + window.location.hash.toLowerCase();
+	if (redirectPages[path]) {
+		window.location.href = redirectPages[path];
+		return;
+	}
+
+	if (oldPages[path]) {
+		trackRedirect(path);
+		window.location.href = oldPages[path];
+		return;
+	}
+
+	if (!path.includes('/#projects-')) {
+		return;
+	}
+
+	var projectCode = (path.split('/#projects-')[1] || '').toLowerCase();
+	if (!projectCode) {
+		return;
+	}
+
+	var projectFound = projectsCodeWithSlug.find(function(p) { return p.code.toLowerCase() === projectCode; });
+	if (projectFound && projectFound.slug) {
+		window.location.href = `/projects/${projectFound.slug}`;
+		return;
+	}
+
+	if (oldSiteProjectCodes.includes(projectCode)) {
+		trackRedirect('/#projects-' + projectCode);
+		window.location.href = 'https://pixel.big.dk/#projects-' + projectCode;
+		return;
+	}
+}();
+</script>
+
+<div id="GlobalCursor">
+	<div class="pause"><img src="assets/svg/cursor/pause.svg"></div>
+	<div class="play"><img src="assets/svg/cursor/play.svg"></div>
+	<div class="arrow_right_white arrowBig"><img src="assets/svg/cursor/arrow_right_white.svg"></div>
+	<div class="arrow_left_white arrowBig"><img src="assets/svg/cursor/arrow_left_white.svg"></div>
+	<div class="arrow_right_small arrowSmall"><img src="assets/svg/cursor/arrow_right_small.svg"></div>
+	<div class="arrow_left_small arrowSmall"><img src="assets/svg/cursor/arrow_left_small.svg"></div>
+</div>
+
+
+<div id="SiteWrapper">
+	<div class="Intro">
+
+	<div class="bg"></div>
+
+	<div class="logoPlaceholder">
+		<svg width="45" height="20" viewBox="0 0 45 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M20 0V20H23.9944V0H20ZM44.0085 3.99435V0H28.0028V20H44.0085V8.00282H36.0056V11.9972H40.0141V15.9915H32.0113V3.99435H44.0085ZM11.9972 8.00282V0H0V20H16.0056V8.00282H11.9972V8.00282ZM3.99435 3.99435H8.00282V8.00282H3.99435V3.99435ZM11.9972 16.0056H3.99435V11.9972H11.9972V16.0056Z" fill="white"/>
+		</svg>
+	</div>
+
+	<div class="letters">
+		<div class="letter">L</div>
+		<div class="letter">E</div>
+		<div class="letter">A</div>
+		<div class="letter">P</div>
+		<div class="letter lastLetter">P</div>
+	</div>
+
+</div>
+	<div class="MainMenu">
+	<div class="bgBar"></div>
+
+	<div class="logo">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 98">
+			<polyline class="stroke letter-b-1" points="9.82 78.44 9.82 9.82 49.04 9.82 49.04 39.27" style="stroke-dasharray: 138.29; stroke-dashoffset: 0px;"></polyline>
+			<polyline class="stroke letter-b-2" points="68.67,78.44 68.67,49.04 19.63,49.04" style="stroke-dasharray: 79.44; stroke-dashoffset: 0px;"></polyline>
+			<line class="stroke letter-b-3" y1="88.26" x2="78.44" y2="88.26"></line>
+			<rect class="letter-i" width="19.63" height="98.08" x="98.08" y="0" data-svg-origin="107.89500141143799 49.040000915527344" style="transform-origin: 0px 0px;"
+				  transform="matrix(1,0,0,1,0,0)"></rect>
+			<line class="stroke letter-g-1" x1="137.25" y1="9.82" x2="215.7" y2="9.82"></line>
+			<polyline class="stroke letter-g-2" points="147.07,19.63 147.07,88.26 205.88,88.26 205.88,49.04 176.52,49.04" style="stroke-dasharray: 197.02; stroke-dashoffset: 0px;"></polyline>
+		</svg>
+	</div>
+
+	<div class="searchBg"></div>
+
+	<div class="container itemContainer">
+		<div class="innerContainer">
+
+
+			<div class="mobileButton">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+				<div class="line4"></div>
+			</div>
+			<div class="items mainFilter">
+				<div class="item" data-value="landscape" data-id="0" data-main="true">LANDSCAPE</div>
+				<div class="item" data-value="engineering" data-id="1" data-main="true">ENGINEERING</div>
+				<div class="item" data-value="architecture" data-id="2" data-main="true">ARCHITECTURE</div>
+				<div class="item" data-value="planning" data-id="3" data-main="true">PLANNING</div>
+				<div class="item noMarginRight" data-value="products" data-id="4" data-main="true">PRODUCTS</div>
+
+				
+				<div class="MenuSearch" data-terms="Completed,France,Education,Museum,Sustainability">
+					<div class="inner">
+						<div class="filterCount"></div>
+						<div class="icon">
+							<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="7.5" cy="5.5" r="4.5" stroke="black"/>
+								<path d="M4 9L1 12" stroke="black"/>
+							</svg>
+						</div>
+						<div class="lockedTerms"></div>
+						<input type="text" id="search" autocomplete="off" aria-label="Search for projects" value="" class="searchInput"/>
+						<div class="sidebar">
+							<div class="autoComplete"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="secondaryMenuBar">
+				<div class="inner">
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> LANDSCAPE</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="landscape" data-value="landscape" data-id="5">View all</div>
+						<div class="subItem item" data-leapp="landscape" data-value="public realm" data-id="6">Public Realm</div>
+						<div class="subItem item" data-leapp="landscape" data-value="parks" data-id="7">Parks</div>
+						<div class="subItem item" data-leapp="landscape" data-value="gardens" data-id="8">Gardens</div>
+						<div class="subItem item" data-leapp="landscape" data-value="terraces" data-id="9">Terraces</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> ENGINEERING</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="engineering" data-value="engineering" data-id="10">View all</div>
+						<div class="subItem item" data-leapp="engineering" data-value="structure" data-id="11">Structure</div>
+						<div class="subItem item" data-leapp="engineering" data-value="simulation" data-id="12">Simulation</div>
+						<div class="subItem item" data-leapp="engineering" data-value="sustainability" data-id="13">Sustainability</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> ARCHITECTURE</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="architecture" data-value="architecture" data-id="14">View all</div>
+						<div class="subItem item" data-leapp="architecture" data-value="culture" data-id="15">Culture</div>
+						<div class="subItem item" data-leapp="architecture" data-value="education" data-id="16">Education</div>
+						<div class="subItem item" data-leapp="architecture" data-value="work" data-id="17">Work</div>
+						<div class="subItem item" data-leapp="architecture" data-value="hospitality" data-id="18">Hospitality</div>
+						<div class="subItem item" data-leapp="architecture" data-value="residential" data-id="19">Residential</div>
+						<div class="subItem item" data-leapp="architecture" data-value="infrastructure" data-id="20">Infrastructure</div>
+						<div class="subItem item" data-leapp="architecture" data-value="space" data-id="21">Space</div>
+						<div class="subItem item" data-leapp="architecture" data-value="interiors" data-id="22">Interiors</div>
+						<div class="subItem item" data-leapp="architecture" data-value="sports" data-id="23">Sports</div>
+						<div class="subItem item" data-leapp="architecture" data-value="health" data-id="24">Health</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> PLANNING</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="planning" data-value="planning" data-id="25">View all</div>
+						<div class="subItem item" data-leapp="planning" data-value="campus" data-id="26">Campus</div>
+						<div class="subItem item" data-leapp="planning" data-value="city" data-id="27">City</div>
+						<div class="subItem item" data-leapp="planning" data-value="region" data-id="28">Region</div>
+					</div>
+					<div class="itemHeadlineMobile mobileOnly"><span class="plus">+</span> PRODUCTS</div>
+					<div class="itemSecondaryMenu">
+						<div class="subItem item mobileOnly" data-leapp="products" data-value="products" data-id="29">View all</div>
+						<div class="subItem item" data-leapp="products" data-value="lighting" data-id="30">Lighting</div>
+						<div class="subItem item" data-leapp="products" data-value="furniture" data-id="31">Furniture</div>
+						<div class="subItem item" data-leapp="products" data-value="consumer products" data-id="32">Consumer products</div>
+						<div class="subItem item" data-leapp="products" data-value="mobility" data-id="33">Mobility</div>
+						<div class="subItem item" data-leapp="products" data-value="installations" data-id="34">Installations</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="submenu">
+		<div class="container">
+			<div class="links">
+				<a href="index.html" class="menuItem">PROJECTS</a><br>
+				<a href="news.html" class="menuItem">NEWS</a><br>
+				<a href="about.html" class="menuItem">ABOUT</a><br>
+				<a href="sustainability.html" class="menuItem">SUSTAINABILITY</a><br>
+				<a href="people.html" class="menuItem">PEOPLE</a><br>
+				<a href="careers.html" class="menuItem">CAREERS</a><br>
+				<div class="contact menuItem">CONTACT</div><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div id="TemplateLayer">
+			<div data-template="AboutTemplate" data-title="Big | About" class="template AboutTemplate">
+
+		<div class="container intro">
+			<div class="innerContainer">
+				<h1>ABOUT</h1>
+			</div>
+
+			<div class="grid">
+				<div class="introHeadline">The escalating complexity of the world and the accelerating speed of change exceed any individual’s capacity to comprehend. For architects operating today, the Golden Ratio is no longer the standard - rather, the UN’s 17 Sustainable Development Goals are. From a single elegant equation, architects are now held to multidimensional success criteria with almost infinite variables.<br />
+<br />
+Since sustainability is inherently a question of complex systems, circular design, and holistic thinking, no single person holds the solution. As architects and urbanists, we must team with scientists, engineers with biologists, politicians with entrepreneurs, to combine skill sets and perspectives, knowledge and sensibility, to match the complexity of the challenges we face. As future formgivers, we won’t be defined by our individual talents or singular skill sets - but rather by our capacity to pool the skills of the many to give our future form. </div>
+				<div class="introBody">BIG has grown organically over the last two decades from a founder, to a family, to a force of 700. Our latest transformation is the BIG LEAP: Bjarke Ingels Group of Landscape, Engineering, Architecture, Planning and Products. A plethora of in-house perspectives allows us to see what none of us would be able to see on our own. The sum of our individual talents becomes our collective creative genius. A small step for each of us becomes a BIG LEAP for all of us.<br />
+<br />
+Bjarke Ingels<br />
+Founder & Creative Director </div>
+			</div>
+		</div>
+
+		
+								<div class="ImageGallery" data-module="ImageGallery">
+
+	<div class="container">
+		<div class="innerContainer">
+
+			<div class="images">
+				<div class="content">
+											<div class="imgContainer">
+							<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/11/wallpapergallery.jpg" class="lazyload">
+						</div>
+									</div>
+			</div>
+
+			<div class="info">
+				<div class="captions">
+											<div class="caption"></div>
+									</div>
+								<div class="count">01 — 01</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">LANDSCAPE</div>
+			<div class="column1">As public space and biodiversity are subtracted in urban spaces, BIG Landscape works with architects and other disciplines to integrate the built and natural worlds, connecting people to people, and people to nature. With every project, we go beyond the brief to give the gift of public space to the communities in which we work, creating equitable and accessible public spaces for all. <br />
+</div>
+			<div class="column2">Our work not only responds to challenges today, it mitigates challenges of the future: we approach every project as an opportunity to use nature-based solutions for social and technological integration, community building, ecology preservation, biophilia and biodiversity enhancement to design sustainable, smarter and safer cities. </div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="PUBLIC REALM">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/Urbanspace.jpg" class="lazyload">
+					<div class="title" data-active="true">PUBLIC REALM<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">A new city square Henning Kruses Plads creates a more lively public realm in Denmark's fifth largest city, Esbjerg. The design brings together Esbjerg's old town center and the green city park around the local concert venue Musikhuset. The square is planted with 55 pollen-free Betula Pendula Birch, whose white stems blend with the white interior columns of the music venue. Planted in a grid system around a cymatic pool, the trees are all stemmed at a height of 4-5 m to ensure views in all directions.  </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="PARKS">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/copyright_laurianghinitoiu_big_hq_04.jpg" class="lazyload">
+					<div class="title" data-active="true">PARKS <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">At the foot of BIG's headquarters in Copenhagen, a former parking area has been transformed into a 1,500 m2 public park and promenade, inspired by the sandy beaches and the coastal forests of Denmark. Towards the north, native forest trees, such as pines and oaks, create shelter from the harsh winds of the harbour. Towards the south, areas with planting, rocks and woods support habitat creation for biodiversity. At the heart of the park, tucked away between the trees, a sculpture by American artist Benjamin Langholz titled "Stone 40" will surprise and engage visitors of all ages.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="GARDENS">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/2023_Nov_SHF_Exterior-5-edit.jpg" class="lazyload">
+					<div class="title" data-active="true">GARDENS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Surrounding the UAE Pavilion, meandering paths frame a series of thematic gardens that explore the power of plants as a source of food, health and energy. Throughout the gardens, guests can explore a total of 6,609 plants - highlighting species that were both essential for the survival of ancestors and plants that now contribute to sustainable objectives.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="TERRACES">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/SPIRAL_Jan_Edit_2.jpg" class="lazyload">
+					<div class="title" data-active="true">TERRACES <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Located at the intersection of the High Line and the newly developed Hudson Boulevard Park on Manhattan’s new western frontier, the terraces at The Spiral visually extend the green space of the former train tracks in a spiraling motion towards the sky – from High Line to the skyline. The 1,005 ft high-rise is a unique hybrid that intertwines a continuous green pathway with workspaces on every level. The terraces set a new standard for the contemporary workplace, making nature an integrated part of the work environment.</p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">ENGINEERING</div>
+			<div class="column1">BIG Engineering is the heart of the data-based approach that drives design for BIG projects globally. Our Structures and Sustainability teams collaborate closely with architects and landscape designers to develop schemes that optimize building placement, form, and materiality based on real-world requirements such as wind forces, seismic loads, gravity, and the constraints imposed by various construction techniques. <br />
+</div>
+			<div class="column2">Our knowledge of building codes, design methods, and construction techniques around the world provides a basis for developing creative design solutions which push the boundaries of what is possible. Integrating with the architectural and landscape teams allows for rapid development of building forms, as the results of structural analysis occur at a pace that keeps up with architectural design iterations. </div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="structure">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2023/11/R_Hjortshoj-BIG-HQ-WEB-4-s-1.jpg" class="lazyload">
+					<div class="title" data-active="true">STRUCTURE<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">At its core, structural engineering is about two things - forces and materials. All loads, whether they be people, wind or snow have to be directed safely to the ground. Various statical solutions and construction materials exist which are well known and have been codified over many years. These standard solutions are very cost effective and low risk but can often impose heavy compromises on the architectural vision. At BIG Engineering, we not only consider what structural solutions are economic and buildable but, more importantly, how our knowledge of forces and materials can support the investigations of our architects. Statical studies investigate how the flow of force may shape the building form, how the disposition of columns may help to delineate between different functions or how the arrangement of roof beams may modify natural light. Our choice of construction material is not only governed by its load bearing properties but by its materialistic qualities or by its ability to absorb heat as part of the buildings’ cooling strategy. The resulting building is one seamless solution where the line between structure and architecture disappears.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="simulation">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/08/simulations.jpg" class="lazyload">
+					<div class="title" data-active="true">TECHNICAL SIMULATIONS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Our engineering solutions are often developed from the bottom-up as a direct consequence of site specific environmental conditions. Technical simulations are used to understand the complex interaction between the natural environment and the built environment and inform a wide variety of architectural concerns ranging from the overall massing and orientation of the building to the specification of the ventilation system and facade. Technical simulations use the computer to model natural phenomena such as temperature, sunlight, wind, rain, and noise. Many of these studies are carried out using parametric modeling to not only create a dynamic geometry definition, but also to perform complex analysis such as daylight, acoustic comfort, shadow casting, solar radiation, and computational fluid dynamics. The results are used to inform a number of architectural decisions including geometry, orientation, materiality, and transparency, as well as to ensure that the building is economical to operate for the whole of its life.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/08/sustainability-1.jpg" class="lazyload">
+					<div class="title" data-active="true">SUSTAINABILITY<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">BIG Sustainability offers a range of services such as environmental analysis, Life Cycle Assessment (LCA), sustainability frameworks and certifications. We use advanced computational tools and methods to support an efficient design process for sustainable design. Depending on the goals of the project, our team will also collaborate with external consultants, utilizing a global research network on the cusp of climate research and building performance. We collaborate with top engineers across various fields and our tools, methods, and workflows are developed to address both the science of sustainable building design as well as the economic and operational considerations that buildings and campuses require. </p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">ARCHITECTURE</div>
+			<div class="column1">We take on the creation of socially, economically and environmentally perfect places as a practical objective. Traditionally, architecture is dominated by two extremes: one that is very wild and expressive, but also expensive and unrealistic, and the other – that is practical and rational, but may also be un-ambitious and uninspiring. We try to occupy the overlap between the two extremes, a place where we use all the different forces that flow through society – the cultural and economic structures, infrastructure itself – as the driving force of the design. </div>
+			<div class="column2">Our “pragmatic utopian” designs include powerplants where you can ski on the roof,  flood protection that doubles like playgrounds or parks - parking structures that become mountains of houses with gardens – or a three-dimensional urban block where people can walk and bicycle along townhouses all the way to the 10th story penthouse. All seem and sound utopian in their ambition or radical combination of seemingly incompatible elements – but once realized they form an integrated part of our everyday lives.<br />
+</div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="culture">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/culture.jpg" class="lazyload">
+					<div class="title" data-active="true">CULTURE <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">The Twist in Kistefos sculpture park is a hybrid spanning several traditional categories: it’s a museum, it’s a bridge, it’s an inhabitable sculpture. As a bridge, it reconfigures the sculpture park, turning the journey through the park into a continuous loop. As a museum, it connects two distinct spaces – an introverted vertical gallery and an extraverted horizontal gallery with panoramic views across the river. A third space is created through the blatant translation between these two galleries, creating the project's namesake twist. The resultant form becomes another sculpture among the sculptures within the park.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="education">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/wils.jpg" class="lazyload">
+					<div class="title" data-active="true">EDUCATION<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">The density of the urban Arlington neighborhood became the inspiration for the school – BIG fanned the classrooms to allow each and every floor to be connected to the roof garden on top of the classrooms below. The resultant cascading terraces are connected by a curving stair that weaves through all levels – inside as well as outside – making all students, from both programs and all ages, visually and physically connected to each other. Each terrace is landscaped to lend itself not just to the social life of the students but also as informal outdoor spaces for learning.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="WORK">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/Untitled-1.jpg" class="lazyload">
+					<div class="title" data-active="true">WORK<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">BIG's design of the Google Bay View campus is the result of an incredibly collaborative design process. Working with a client as data driven as Google has led to an architecture where every single decision is informed by hard information and empirical analysis. The result is a campus where the striking dragonscale solar canopies harvest every photon that hits the buildings; the energy piles store and extract heating and cooling from the ground, and even the naturally beautiful floras are in fact hardworking rootzone gardens that filter and clean the water from the buildings. All in all, a campus where front of house and back of house, technology and architecture, and form and function have been fused into a new and striking hybrid.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="hospitality">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/hospitality.jpg" class="lazyload">
+					<div class="title" data-active="true">HOSPITALITY <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Conceived as a manmade extension of the sloping meadows of the Vallée du Joux, the five-story building volume is folded to form a serpentine mountain path ascending from the fields to the roof while opening all spaces inside to visually connect to the valley outside. This full immersion into the local landscape, climate, and flora and fauna makes the guest experience inseparable from the Vallée du Joux, the cradle of Swiss watchmaking.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="infrastructure">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/arc.jpg" class="lazyload">
+					<div class="title" data-active="true">INFRASTRUCTURE<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">CopenHill is a blatant architectural expression of something that would otherwise have remained invisible: it is the cleanest waste-to-energy power plant in the world. As a power plant, CopenHill is so clean that BIG was able to turn its building mass into the bedrock of the social life of the city – its façade is climbable, its roof is hikeable and its slopes are skiable. A crystal clear example of Hedonistic Sustainability – that a sustainable city is not only better for the environment – it is also more enjoyable for the lives of its citizens.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="residential,architecture">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/via.jpg" class="lazyload">
+					<div class="title" data-active="true">RESIDENTIAL<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Located at the northern tip of the Hudson River<br />
+Park, VIA continues the process of greenification <br />
+ in NYC allowing open space to invade the urban fabric of the Manhattan city grid.<br />
+VIA fuses what seems to be two mutually exclusive typologies - the courtyard and the skyscraper, into the  Courtscraper.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="space">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/08/galaxy.jpg" class="lazyload">
+					<div class="title" data-active="true">SPACE<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">BIG is pioneering new frontiers - both materially, technologically and environmentally through our work in outer space. The NASA Olympus habitats are designed with the inherent redundancy required for extraterrestrial buildings, while also using groundbreaking robotic construction that uses only in-situ resources with zero waste left behind. With the technologies and efficiency parameters developed for the construction of extraterrestrial buildings, the answers to our challenges on Earth very well might be found in space. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="culture">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/09/civic.jpg" class="lazyload">
+					<div class="title" data-active="true">CIVIC<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Located at the heart of the Copenhagen Zoo, BIG made the entire Panda House enclosure accessible from 360 degrees, turning the two pandas into the new rotation point for Copenhagen Zoo.<br />
+Architecture is like portraiture. The habitat is formed like a giant yin and yang symbol, two halves: the male and the female complete each other to form a single circular whole. The curvy lines are undulating in sections to create the necessary separation between him and her - as well as between them and the visitors. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="INTERIORS">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/noma.jpg" class="lazyload">
+					<div class="title" data-active="true">INTERIORS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Built on the protected site of an old fortification once used to store mines for the Royal Danish Navy, the design of the new Noma dissolves the traditional idea of a restaurant into its constituent parts and reassembles them to put the chefs at the heart of the restaurant. A collection of separate yet connected buildings are tailored to their specific needs and are densely clustered around the kitchen. Designed like a panopticon, the kitchen allows the chefs to oversee the staff and guest areas, while every guest can follow what would traditionally happen behind the scenes. Each building within the building is connected by glass-covered paths that reveal the changes in weather, daylight, and seasons - making the natural environment integral to the culinary experience. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="retail">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/08/retail.jpg" class="lazyload">
+					<div class="title" data-active="true">RETAIL<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Rather than messing with the old bones and original grandeur of the 1932 Art Deco bank building, the Galleries Lafayette on the Champs-Élysées adapts to the 21st century by operating at the scale of furniture. When BIG inherited the space, most of the original Art Deco elements were covered with black-painted drywall. The cupola was hidden behind sheetrock and there were no connections to the Avenue des Champs-Élysées. Today shoppers enter a glowing bridge into the heart of the building: a circular atrium covered by  a monumental glass cupola. The entire store unfolds on the ground floor and creates an illuminated urban living room for cultural events and fashion shows. A grand staircase, which doubles as an auditorium, takes visitors to spaces shaped by a family of flexible pavilions that can transform over time. As online retail undermines the monopoly of physical space for transaction, the renewed relevance of retail becomes its quality as a public space for people to enjoy and to meet. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="sports">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/05/240229_1593_c02_Image-by-negativ-1.jpg" class="lazyload">
+					<div class="title" data-active="true">SPORTS <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">The new ballpark for the Athletics Major League Baseball team will sit directly on the Las Vegas Strip, exuding an outdoor feel with panoramic views of the city’s skyline. The 33,000-capacity covered ballpark’s roof is accentuated by five overlapping shells resembling baseball pennants, paying homage to the sport. For players, these arched “pennants” attenuate direct sunlight glare while welcoming indirect natural light through northern oriented clerestory windows. An elevated outdoor plaza directs fans to the ballpark’s main concourse, where a large glass atrium pulls the city into the venue. Once inside, fans are met with bright, open atria, which will also serve as multipurpose exhibition spaces to showcase international and local artists. The Athletics Ballpark’s tiered design and intimacy, inspired by historic ballparks like Fenway and Wrigley - with split upper and lower bowls - bring fans closer to the action than traditional ballparks and provide clear sight lines from every seat. The structure’s exterior metal cladding shimmers in the natural daylight and reflects the surrounding Las Vegas lights at night.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="health">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/08/HEALTH.jpg" class="lazyload">
+					<div class="title" data-active="true">HEALTH<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">BIG's hospital design seeks to avoid clinical stereotypes: hallways without windows and rooms with artificial, easy-cleaning materials. At Ellsinore Psychiatric Hospital, all materials have their natural surfaces: wood, glass and concrete in lively colors to create the best conditions for health care. Effectively and rationally minimising walking distance, and at the same time providing individual sections with a maximum of autonomy and intimate spaces where the users can feel themselves almost at home. </p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">PRODUCTS</div>
+			<div class="column1">Our BIG Product team makes product design a literal extension of our efforts in architecture. Architects rarely have the possibility to specify a building component from scratch, limiting our imagination to what is already on the shelves. </div>
+			<div class="column2">Our work in furniture, lighting, transportation, and IoT ensures that we connect the big picture to the small details, increasing our overall influence on the built environment. </div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="LIGHTING">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/nebula.jpg" class="lazyload">
+					<div class="title" data-active="true">LIGHTING<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Our latest design, Stellar Nebula for Italian lighting manufacturer Artemide is a family of lamps designed to interpret and enhance artisanal glass blowing with innovative PVD finishing techniques. Other collaborations with Artemide have led to the award-winning Alphabet and Vine lights - in addition to earlier collaborations with Danish design brands Louis Poulsen and Fritz Hansen. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="FURNITURE">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/02/slide_06.jpg" class="lazyload">
+					<div class="title" data-active="true">FURNITURE<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">The Brick sofa series for Jot.Jot is designed to have strong architectural references: a classic brick bond forming the cushion pattern, tied together and fixed with tailor-quality buttons made from fiber concrete. The architectural references are felt in many of our furniture designs - from the VIA chair designed for VIA 57 West building in NYC to the Shanghay chair for BIG's 2010 Expo Pavilion.  </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="CONSUMER PRODUCTS ">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/friday1.jpg" class="lazyload">
+					<div class="title" data-active="true">CONSUMER PRODUCTS <div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">With its two guiding principles – beauty and simplicity – the unique shape of DUO Smart Lock is inspired by the architectural principle of the Saddle Roof, making it striking and a perfect fit for any home. It has the smallest dimensions of any retrofit lock on the market. Other consumer products include the HAV Porcelain collection for Royal Copenhagen and TURN reusable cups to end  single use plastics from events and concerts. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="MOBILITY">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/07/mobility.jpg" class="lazyload">
+					<div class="title" data-active="true">MOBILITY<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Mobility includes large scale infrastructure projects that tie together cities to bicycles that take you the last stretch home. In collaboration with the engineering team at Virgin Hyperloop One we have designed the pods with a focus on comfort and functionality, defining an entirely new sustainable transportation typology. With Biomega we’ve designed a collection of simple and practical, both analog and electric bicycles.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="INSTALLATIONS">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/09/istallatons.jpg" class="lazyload">
+					<div class="title" data-active="true">INSTALLATIONS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">SKUM is a bubble-like cloud pavilion filled with air,  powered by two wind turbines. Fully inflated in seven minutes, the idea was to plug in and play. Debuting as the Tuborg VIP bar at Roskilde Festival 2016, the pavilion features a generous canopy for visitors to relax under its shade. Its low-impact construction offers maximum visibility while incurring a minimal environmental foot print which generally informs our approach to small-scale pavilions and installations. </p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">PLANNING </div>
+			<div class="column1">BIG Planning takes a comprehensive view on the built environment, supporting our teams and clients in thinking in the long-term and across multiple scales and systems. We engage with clients early in their process – before a building is built, or a landscape is designed, to help answer fundamental questions:  what, where, why, and for whom should we be building? We engage deeply with communities, institutions, and governments to help answer these questions, and build consensus amongst complex stakeholder groups in the process. </div>
+			<div class="column2">We add value to projects by constantly returning to the big picture - in an age of climate change, aging infrastructure, heavy population growth, and rapid urbanization, built investments must work overtime to achieve social, economic, and environmental success. BIG Planning pursues these goals relentlessly, with results ranging from resilient urban design to regional visioning, and from campus masterplans to planetary strategy.</div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="CAMPUS">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/10/campus.jpg" class="lazyload">
+					<div class="title" data-active="true">CAMPUS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Our projects at Google Bay View and Gradient Canopy help to support Google's campus goals by drastically reducing energy consumption through elements such as geothermal wells and optimized daylight as well as contributing energy to the grid through the use of photovoltaic roof arrays. Bay View’s three new buildings support Google’s ambition to be the first major company to operate on carbon-free energy, 24h a day, seven days a week by 2030. The site has achieved a LEED-NC v4 Platinum certification and become the largest facility ever to attain the International Living Future Institute (ILFI) Living Building Challenge (LBC) Water Petal Certification. </p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="CITY">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/10/City.jpg" class="lazyload">
+					<div class="title" data-active="true">CITY<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">To accelerate the transformation and advance all aspects of mobility and beyond, a 170-acre former factory site in Susono, at the foothills of Mt. Fuji in Japan, will be transformed into an urban incubator – Toyota Woven City. Envisioned as a living laboratory to test and advance personal mobility, autonomy, mobility as a service, connectivity, hydrogen-powered infrastructure, and industry collaboration, Toyota Woven City aims to bring people and communities together.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="REGION">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2022/10/region.jpg" class="lazyload">
+					<div class="title" data-active="true">REGION<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Our vision for the Penang island and region titled  BiodiverCity includes an integrated system of localized water resources, renewable energy, and waste management, tied altogether in a human-made ecosystem. Rather than designing a region for cars, we designed BiodiverCity for waterways, rail and different kinds of personal mobility, forming a multi-modal environment of movement. The resultant urban landscape will be a celebration of Penang's position as a truly global crossroads of the world - economically, ecologically, and socially.</p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+								<section class="TextModule">
+	<div class="container">
+		<div class="grid">
+			<div class="headline">VISION</div>
+			<div class="column1">BIG Vision brings focus and form to your ideas. As your thought-partner, we translate ideas at any stage into physical space, bringing them one step closer to reality- in the form of an experience, product, building or city.<br />
+<br />
+We unlock potential through analysis, experimentation and methodical design. We provoke, test the limits, explore new perspectives and ask the right questions during a series of bespoke engagements. </div>
+			<div class="column2">This design approach defines project ambitions, explores its value, and gives clients the tools to make decisions and realize it.<br />
+<br />
+We believe in the power of unexpected findings when great thinkers, open dialogue and iterative design come together to drive consensus and solve global and human problems. </div>
+		</div>
+	</div>
+</section>
+								<div class="ImageSlider" data-module="ImageSlider">
+
+	<div class="container">
+		<div class="innerContainer">
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/TOP.jpg" class="lazyload">
+					<div class="title" data-active="true">FUTURE OF RESILIENT CITIES<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">As part of UN-Habitat’s New Urban Agenda, we proposed a vision for the world’s first resilient and sustainable floating community for 10,000 residents. Designed as a man-made ecosystem, Oceanix City is anchored in the UN Sustainable Development Goals, channeling flows of energy, water, food and waste to create a blueprint for a modular maritime metropolis. Oceanix City is designed to grow, transform and adapt organically over time, evolving from neighborhoods to cities with the possibility of scaling indefinitely.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/ELY_Image-by-BIG_02.jpg" class="lazyload">
+					<div class="title" data-active="true">FUTURE OF MULTIMEDIA MEMORIALS<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">In collaboration with Cirque du Soleil founder Guy Laliberté, we reimagined traditional funerary practices to create an immersive experience that preserves personal stories for future generations. The buildings will live in major cities worldwide to serve as a "public library of the human experience," bringing together people from diverse cultures and backgrounds to share stories and celebrate the lives of those who have passed. Thousands of artifacts displayed in timeless glass capsules act as gateways to a digital archive filled with memories and media about the loved ones we've lost.</p></div>
+				</div>
+							<div class="imageContainer" data-ratio="0.69169960474308" data-filters="">
+					<img data-src="https://ik.imagekit.io/dlnx2cwu4w//wp-content/uploads/2024/10/01_S4A8240-Edit.jpg" class="lazyload">
+					<div class="title" data-active="true">FUTURE OF WORK<div
+							class="plus">+</div></div>
+					<div class="caption"><p class="content">Area 2071 is a co-creation space that embodies the UAE's ambition to position Dubai as a global hub for innovation. Located on the ground floor of Emirates Towers, where the Dubai Future Foundation government offices are located, creative workspaces enable start-ups, corporations, venture capitalists and the government to work side-by-side.  A kit-of-parts embraces sharing, collaboration and contemplation to untap the creative potential within Area 2071 residents and the public. The space supports the brightest minds to bring to life the next wave of big ideas.</p></div>
+				</div>
+					</div>
+	</div>
+
+</div>
+		
+	</div>
+	</div>
+
+	<div class="centerMarkerHorizontal"></div>
+	<div class="centerMarkerVertical"></div>
+
+	<div class="Footer">
+	<div class="container">
+		<div class="innerContainer">
+			<div class="items">
+								<div class="item col-start-1 col-end-3">
+					<input type="radio" name="footer" id="footer-email" />
+					<label for="footer-email" class="button">
+						EMAIL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-email">
+																					<div class="footer-email-text">NEW PROJECTS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#3f515a485d56457f5d5658115b54"><span class="__cf_email__" data-cfemail="402e253722293a002229276e242b">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">PRESS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#1a6a687f69695a78737d347e71"><span class="__cf_email__" data-cfemail="93e3e1f6e0e0d3f1faf4bdf7f8">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">LECTURES</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#0c60696f78797e697f4c6e656b226867"><span class="__cf_email__" data-cfemail="8ee2ebedfafbfcebfdceece7e9a0eae5">[email&#160;protected]</span></a>
+							</div>
+														<div class="footer-email-text">EXHIBITIONS</div>
+							<div class="footer-email-link">
+								<a href="https://big.dk/cdn-cgi/l/email-protection#b1d4c9d9d8d3d8c5d8dedfc2f1d3d8d69fd5da"><span class="__cf_email__" data-cfemail="2045584849424954494f4e53604249470e444b">[email&#160;protected]</span></a>
+							</div>
+																				</div>
+					</div>
+				</div>
+
+				<div class="item col-start-2 col-end-4">
+					<input type="radio" name="footer" id="footer-offices" />
+					<label for="footer-offices" class="button">
+						OFFICES
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-offices">
+																					<input type="radio" name="footer-office" id="footer-office-Copenhagen" checked />
+							<label for="footer-office-Copenhagen" class="footer-offices-location">Copenhagen</label>
+							<div class="footer-offices-text"><p>Sundkaj 165<br />
+2150, Nordhavn<a href="https://goo.gl/maps/R1pmtHqp4Gkqsjtz8" target="_blank" rel="noopener"><br />
+</a>Copenhagen, DK<br />
++45 7221 7227<br />
++45 3512 7227<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#c1a2b1a981a3a8a6efa5aa"><span class="__cf_email__" data-cfemail="7615061e36141f1158121d">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-London"  />
+							<label for="footer-office-London" class="footer-offices-location">London</label>
+							<div class="footer-offices-text"><p>1 Finsbury Avenue<br />
+London EC2M 2PF<br />
+United Kingdom<br />
++44 20 3735 4996<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#721e1d1c32101b155c1619"><span class="__cf_email__" data-cfemail="a6cac9c8e6c4cfc188c2cd">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Barcelona"  />
+							<label for="footer-office-Barcelona" class="footer-offices-location">Barcelona</label>
+							<div class="footer-offices-text"><p><span class="ui-provider eo bnc bnd bne bnf bng bnh bni bnj bnk bnl bnm bnn bno bnp bnq bnr bns bnt bnu bnv bnw bnx bny bnz boa bob boc bod boe bof bog boh boi boj" dir="ltr">Ronda de Sant Pere, 56 </span><span class="ui-provider eo bnc bnd bne bnf bng bnh bni bnj bnk bnl bnm bnn bno bnp bnq bnr bns bnt bnu bnv bnw bnx bny bnz boa bob boc bod boe bof bog boh boi boj" dir="ltr">Bajos</span><br />
+08010 Barcelona<br />
+Spain<br />
++34 610 029 747<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#c9abaaa789aba0aee7ada2"><span class="__cf_email__" data-cfemail="4426272a04262d236a202f">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-New York"  />
+							<label for="footer-office-New York" class="footer-offices-location">New York</label>
+							<div class="footer-offices-text"><p>45 Main Street, 9th Floor<br />
+Brooklyn, NY 11201<br />
+United States<br />
++1 347 549 4141<br />
++1 866 738 4336<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#0a6473694a68636d246e61"><span class="__cf_email__" data-cfemail="eb859288ab89828cc58f80">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Shanghai"  />
+							<label for="footer-office-Shanghai" class="footer-offices-location">Shanghai</label>
+							<div class="footer-offices-text"><p><span data-teams="true"><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">363 Chang Ping Road, FL 6<br />
+Jing An District, Shanghai</span></span><br />
+China<br />
++86 181 0755 4020<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#89fae1e8c9ebe0eea7ede2"><span class="__cf_email__" data-cfemail="384b5059785a515f165c53">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Los Angeles"  />
+							<label for="footer-office-Los Angeles" class="footer-offices-location">Los Angeles</label>
+							<div class="footer-offices-text"><p>310 Wilshire Boulevard,<br />
+2nd floor<br />
+Santa Monica, 90401<br />
+California<br />
+<span data-teams="true"><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">+1 310 692 7280</span></span><br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#620e031a22000b054c0609"><span class="__cf_email__" data-cfemail="5f333e271f3d3638713b34">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Zürich"  />
+							<label for="footer-office-Zürich" class="footer-offices-location">Zürich</label>
+							<div class="footer-offices-text"><p>Planergemeinschaft Raumfachwerk<br />
+Flughafenstrasse 90<br />
+8302 Kloten<br />
+Switzerland<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#04666d637e766c44666d632a606f"><span class="__cf_email__" data-cfemail="cdafa4aab7bfa58dafa4aae3a9a6">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Oslo"  />
+							<label for="footer-office-Oslo" class="footer-offices-location">Oslo</label>
+							<div class="footer-offices-text"><p>St. Olavs Plass 5<br />
+0165 Oslo<br />
+Norway<br />
++47 463 84 511<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#c4abb7a884a6ada3eaa0af"><span class="__cf_email__" data-cfemail="bfd0ccd3ffddd6d891dbd4">[email&#160;protected]</span></a></p>
+</div>
+														<input type="radio" name="footer-office" id="footer-office-Riyadh"  />
+							<label for="footer-office-Riyadh" class="footer-offices-location">Riyadh</label>
+							<div class="footer-offices-text"><p><span data-teams="true">King Abdullah Financial District<br />
+Innovation Blvd &#8211; Building 4.07<br />
+Riyadh 13519<br />
+Kingdom of Saudi Arabia<br />
+<a href="https://big.dk/cdn-cgi/l/email-protection#0f647c6e4f6d6668216b64"><span class="__cf_email__" data-cfemail="bdd6cedcfddfd4da93d9d6">[email&#160;protected]</span></a></span></p>
+</div>
+																				</div>
+					</div>
+				</div>
+
+				<div class="item col-start-3 col-end-4">
+					<input type="radio" name="footer" id="footer-social" />
+					<label for="footer-social" class="button">
+						SOCIAL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-socials">
+																					<a href="https://www.instagram.com/big_builds/" target="_blank" class="footer-social-link">
+								Instagram
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://twitter.com/BIG_Architects" target="_blank" class="footer-social-link">
+								X
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://www.linkedin.com/company/big---bjarke-ingels-group/" target="_blank" class="footer-social-link">
+								LinkedIn
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://vimeo.com/user1395824" target="_blank" class="footer-social-link">
+								Vimeo
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+														<a href="https://www.facebook.com/bjarke.ingels.group" target="_blank" class="footer-social-link">
+								Facebook
+								<span class="arrow">
+									<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M2 1H9V8" stroke="black"/>
+									<path d="M9 1L1 9" stroke="black"/>
+									</svg>
+								</span>
+							</a>
+																					<a href="http://weixin.qq.com/r/GjlRSUbEmhvlrQIq92wI" target="_blank" class="footer-social-qrcode">
+								<div class="footer-social-qrcode-link">
+									WECHAT
+									<span class="arrow">
+										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M2 1H9V8" stroke="black"/>
+										<path d="M9 1L1 9" stroke="black"/>
+										</svg>
+									</span>
+								</div>
+								<img alt="Bjarke Ingels Group WeChat QR Code" src="https://live-big-cms.pantheonsite.io/wp-content/uploads/2023/08/BIG-Icon_WeChat-QR-Code.jpg" />
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="item col-start-4 col-end-5">
+					<input type="radio" name="footer" id="footer-legal" />
+					<label for="footer-legal" class="button">
+						LEGAL
+						<div class="plus">+</div>
+					</label>
+					<div class="content">
+						<div class="footer-legal">
+																					<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/2024/01/BIGs-anti-slavery-and-human-trafficking-statement-2018.pdf" target="_blank">BIG’s Anti-Slavery and Human Trafficking Statement 2018</a>
+														<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/privacy-policy-bigdk.pdf" target="_blank">BIG’s Privacy Policy 2024</a>
+														<a class="footer-legal-link" href="https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/446079" target="_blank">BIG UN Global Compact Report</a>
+														<a class="footer-legal-link" href="https://live-big-cms.pantheonsite.io/wp-content/uploads/2024/06/240603-ANNUAL-SUSTAINABILITY-REPORT-2023.pdf" target="_blank">BIG’s Annual Sustainability Report, 2023</a>
+																					<a class="footer-legal-link" href="ethics-hotline.html">Ethics Hotline</a>
+						</div>
+					</div>
+				</div>
+							</div>
+			<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+				document.querySelectorAll('.Footer .items .item label').forEach(function(label) {
+					var input = label.previousElementSibling;
+					label.addEventListener('click', function() {
+						if (input.checked) {
+							setTimeout(function() { 
+								input.checked = false; 
+							}, 5); 
+						}
+					});
+				});
+			</script>
+		</div>
+
+		<div class="backToTop">
+			<div class="arrow">
+				<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.519531 4.63672L4.15601 1.00024L7.79249 4.63672" stroke="#797979"/>
+					<path d="M4.15598 1.00027V9.31223" stroke="#797979"/>
+				</svg>
+			</div>
+			<p class="label">BACK TO TOP</p>
+			<div class="arrow">
+				<svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M0.519531 4.63672L4.15601 1.00024L7.79249 4.63672" stroke="#797979"/>
+					<path d="M4.15598 1.00027V9.31223" stroke="#797979"/>
+				</svg>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+	//Safari 10 nomodule fix:
+	!function () {
+		var e = document, t = e.createElement('script');
+		if (!('noModule' in t) && 'onbeforeload' in t) {
+			var n = !1;
+			e.addEventListener('beforeload', function (e) {
+				if (e.target === t) n = !0; else if (!e.target.hasAttribute('nomodule') || !n) return;
+				e.preventDefault();
+			}, !0), t.type = 'module', t.src = '.', e.head.appendChild(t), t.remove();
+		}
+	}();
+</script>
+
+<script type="module" src="build/js/main.js" crossorigin></script>
+<script nomodule src="https://big.dk/build/js/main.legacy.js?1763424000" crossorigin></script>
+<script defer data-domain="big.dk" src="https://plausible.io/js/script.js"></script>
+
+</body>
+</html>

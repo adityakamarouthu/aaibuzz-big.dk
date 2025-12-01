@@ -1,0 +1,240 @@
+{
+  "project-details": [
+    {
+      "name": "Milos",
+      "logo": "assets/karma-developers-logo.png",
+      "description": "Milos: Architecture",
+      "Location": "DLRC, Dubai",
+      "Year": "2024",
+      "Client": "Karma Developments",
+      "Typology": "Residential",
+      "Plot Size": "34,324sq.ft. / 3,188.76m2",
+      "Status": "Design completed – Tender Stage",
+      "main": "assets/milos/Milos-Main.jpg",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/milos/Milos-Main.jpg",
+          "content": "Milos sets a new benchmark for refined living in Dubai, strategically located in Dubai Land for effortless access to the city’s iconic landmarks and premier amenities. This prestigious development features sleek, modern architecture that encompasses expansive apartments, seamlessly blending sophistication with the practicality of urban living."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/milos/Roof-Top.jpg",
+          "content": "Rising 13 stories above two subterranean levels, Milos offers 195 meticulously crafted residences, each designed to meet the discerning standards of families and professionals alike. Scheduled for completion in April 2027, this project promises timely delivery without compromising on quality."
+        },
+        {
+          "image": "assets/milos/Milos-Design.png",
+          "content": "Milos exemplifies an unwavering commitment to detail, showcasing interiors adorned with premium finishes and expansive porcelain tiling. Generous floor plans and floor-to-ceiling windows invite natural light, framing breathtaking views and enhancing the living experience. Soaring ceilings and thoughtfully conceived living spaces cultivate an atmosphere of understated luxury, transforming everyday life into an artful experience"
+        }
+      ],
+      "slideshowImages": [
+        "assets/Milos FG/1.jpg",
+        "assets/Milos FG/2.jpg",
+        "assets/Milos FG/3.jpg",
+        "assets/Milos FG/4.jpg",
+        "assets/Milos FG/5.jpg",
+        "assets/Milos FG/6.jpg"
+      ]
+    },
+    {
+      "name": "Trinity",
+      "logo": "assets/karma-developers-logo.png",
+      "Location": "Arjan Dubailand, Dubai",
+      "Year": "2024",
+      "Client": "Karma Developments",
+      "Typology": "Residential",
+      "Plot Size": "71,727sq.ft. / 6,663.63m2",
+      "Status": "Design completed – Tender Stage",
+      "description": "Trinity: The Epitome Of Urban Majesty",
+
+      "main": "assets/Trinity/Exterior-Night.jpg",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/Trinity/Aerial-Daytime.jpg",
+          "content": "Trinity at Arjan stands as a remarkable epitome of luxury and sophistication, offering an exclusive collection of 1, 2, and 3-bedroom luxury apartments. This architectural marvel features a groundbreaking 15-story structure, complemented by an expansive entertainment podium—the largest of its kind in a single residential building within Arjan—creating an unparalleled living experience."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Trinity/Shot05.jpg",
+          "content": "Residents are invited to indulge in the ultimate retreat, with select apartments featuring private pools that provide a serene oasis amidst the vibrant urban landscape. This thoughtful design element enhances the sense of exclusivity and tranquility, allowing residents to unwind in their own private haven."
+        },
+        {
+          "title": "Amenities",
+          "image": "assets/Trinity/Trinity-Amenities.png",
+          "content": "Ideally situated near Dubai Hills, Trinity boasts convenient access to top shopping malls, making it a prime location for both leisure and lifestyle. Additionally, it is within walking distance of Al Barsha City Centre, ensuring that residents have everything they need just moments away. Families will appreciate the proximity to top-tier schools and healthcare facilities, further enhancing the appeal of this exceptional community. Trinity redefines modern living by combining luxurious comfort with accessibility and convenience, making it a truly desirable address in Dubai."
+        }
+      ],
+      "slideshowImages": [
+        "assets/Trinity FG/1.jpg",
+        "assets/Trinity FG/2.jpg",
+        "assets/Trinity FG/3.jpg",
+        "assets/Trinity FG/4.jpg",
+        "assets/Trinity FG/5.jpg",
+        "assets/Trinity FG/6.jpg",
+        "assets/Trinity FG/7.jpg",
+        "assets/Trinity FG/8.jpg"
+      ]
+    },
+    {
+      "name": "Olivia Residences",
+      "logo": "assets/karma-developers-logo.png",
+      "Location": "Dubai Investments Park, Dubai",
+      "Year": "2024",
+      "Client": "Karma Developers",
+      "Typology": "Residential",
+      "Plot Size": "7027.56m2 / 75644.02629sq.ft.",
+      "Status": "Design Completed - Under construction",
+
+      "description": "Olivia Residences by Karma Developers: Elevating Dubai Living",
+      "main": "assets/Olivia/IMG-20231228-WA0020.jpg",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/Olivia/shot6.jpg",
+          "content": "In the heart of Dubai Investment Park, a thriving hub of growth and innovation, Olivia Residences by Karma Developers stands as a testament to the future of luxurious living in the dazzling city of Dubai. This exceptional residential project redefines the art of modern living, offering residents an unparalleled experience of comfort, style, and convenience."
+        },
+        {
+          "title": "Meticulously Designed Apartments",
+          "image": "assets/Olivia/IMG-20231228-WA0022.jpg",
+          "content": "At Olivia Residences, every square foot is a canvas of thoughtful design and meticulous craftsmanship. The apartments are a harmonious blend of form and function, with contemporary architecture and elegant interiors. Each unit is a sanctuary of tranquility, flooded with natural light and adorned with high-end finishes. From spacious living areas to well-appointed bedrooms, every detail has been considered to ensure residents’ utmost comfort."
+        },
+        {
+          "title": "Luxury Amenities",
+          "image": "assets/Olivia/shot5.jpg",
+          "content": "Olivia Residences is more than just a place to live; it’s a lifestyle. The development boasts a wealth of luxury amenities, including a state-of-the-art fitness center, a serene swimming pool, landscaped gardens, and dedicated spaces for relaxation and recreation. Whether you seek an invigorating workout, a peaceful afternoon by the pool, or a leisurely stroll in lush surroundings, Olivia Residences offers it all within your reach."
+        }
+      ],
+      "slideshowImages": [
+        "assets/Olivia FG/1.jpg",
+        "assets/Olivia FG/2.jpg",
+        "assets/Olivia FG/3.jpg",
+        "assets/Olivia FG/4.jpg",
+        "assets/Olivia FG/5.jpg",
+        "assets/Olivia FG/6.jpg"
+      ]
+    },
+    {
+      "name": "Silver Tower Shell",
+      "logo": "assets/logos/firoz-black.webp",
+      "description": "Milos: Architecture",
+      "Location": "International City, Dubai",
+      "Year": "2024",
+      "Client": "Firoz Latif Manjothi",
+      "Typology": "Residential",
+      "Plot Size": "26,909.78sq.ft. / 2,500m2",
+      "Status": "Design completed – Tender Stage",
+      "main": "assets/Firoz/firoz01.png",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/Firoz/firoz02.png",
+          "content": "The Silver Shell Tower is an ambitious architectural project located in the vibrant International City, Dubai. Designed to offer modern living spaces, the development consists of a ground floor, podium level, and four additional apartment floors, culminating in a total built-up area of 9,044.13 square meters. "
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Firoz/Firoz04.png",
+          "content": "The project features 78 residential units, including studio, 1-bedroom, and 2-bedroom apartments, catering to diverse living preferences."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Firoz/Firoz05.png",
+          "content": "Residents will enjoy a range of amenities, including a swimming pool, gym, and a recreational garden, enhancing the overall quality of life. Additionally, the tower provides 83 parking spaces situated on the ground and podium floors, ensuring convenience for all occupants."
+        }
+      ]
+    },
+    {
+      "name": "Gardenia Livings",
+      "logo": "assets/logos/gardenia.png",
+      "description": "Gardenia Livings at Arjan Dubailand",
+      "Location": "Arjan, Dubai",
+      "Year": "2024",
+      "Client": "SAFE Developers",
+      "Typology": "Residential",
+      "Plot Size": "5,185 m2 / 55,810 sq.ft.",
+      "Status": "Design completed – Construction Completed",
+      "main": "assets/Gardenia/Gardenia01.png",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/Gardenia/Gardenia01.png",
+          "content": "Gardenia Livings project is a residential building located in Arjan. The G+6 project spans over 55,810 sq.ft. Project has 156 apartments and is comprised of 90 1 Bedroom and 66 2 Bedrooms apartments."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Gardenia/Gardenia02.png",
+          "content": "The project offers views of a lush green public park from two of its three sides."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Gardenia/Gardenia02.png",
+          "content": "The rooftop caters to an event space for 200 people, and its amenities include a designated fitness area, infinity pool, event space at rooftop, designated kids play area, multifunctional rooftop, fitness area, gym and outdoor theatre. There are 15 layout types for the one-bedroom apartments and 11 layout types for the two-bedrooms apartments."
+        }
+      ]
+    },
+    {
+      "name": "SORA Beach Residences",
+      "logo": "assets/logos/soralogo.png",
+      "description": "Milos: Architecture",
+      "Location": "Ras Al Khaimah, Dubai",
+      "Year": "2024",
+      "Client": "Aark Developers",
+      "Typology": "Residential",
+      "Plot Size": "321,923.91sq.ft / 29,907.71m2",
+      "Status": "Design completed – Tender Stage",
+      "main": "assets/Sora/Sora01.png",
+      "sections": [
+        {
+          "title": "Overview",
+          "image": "assets/Sora/sora04.png",
+          "content": "Sora Beach Residences on Al Marjan Island represents a remarkable achievement in luxurious beachfront architecture, located near the dynamic city of Dubai. This development features a diverse array of residences ranging from 1 to 4 bedrooms, each thoughtfully designed with private pools and sweeping panoramic views of the sea."
+        },
+        {
+          "title": "Architecture",
+          "image": "assets/Sora/sora03.png",
+          "content": "With a comprehensive offering of over 50 amenities, Sora Beach Residences integrates upscale living with a prime location adjacent to the Wynn Gaming Resort. The project boasts direct access to Al Marjan Island's pristine beach and includes a beautifully designed infinity pool that provides a stunning vista of the surrounding waters. This architectural endeavor exemplifies a commitment to creating elegant, harmonious living spaces that elevate the coastal lifestyle."
+        },
+        {
+          "image": "assets/Sora/sora05.png"
+        },
+        {
+          "image": "assets/Sora/sora06.png"
+        }
+      ]
+    },
+    {
+      "name": "Dubai Sports City",
+      "logo": "assets/karma-developers-logo.png",
+      "description": "A Community Built for Champions",
+      "Location": "Ras Al Khaimah, Dubai",
+      "Year": "2024",
+      "Client": "Antalaya",
+      "Typology": "Residential",
+      "Plot Size": "321,923.91sq.ft / 29,907.71m2",
+      "Status": "Design completed – Tender Stage",
+      "main": "assets/dubai-sports-city/project-picture.png",
+      "sections": [
+        {
+          "title": "A COMMUNITY BUILT FOR CHAMPIONS",
+          "image": "assets/dubai-sports-city/01-Lobby.png",
+          "content": "Dubai Sports City stands as a truly exceptional destination where elite sports infrastructure harmoniously converges with dynamic residential communities. Meticulously crafted to cater to professional athletes, passionate sports enthusiasts, and modern families, this vibrant enclave redefines urban living through the lens of wellness and activity. Boasting state-of-the-art stadiums, training academies, and recreational amenities, Dubai Sports City fosters an environment that inspires movement, excellence, and a balanced lifestyle. Nestled strategically in the heart of Dubai, it offers not just a place to live, but a thriving, energetic atmosphere where health, ambition, and community thrive in unison"
+        },
+        {
+          "title": "Tranquility",
+          "image": "assets/dubai-sports-city/03-ELEVATOR LOBBY-2.png",
+          "content": "A space where stillness speaks and togetherness blooms. In the heart of the Zen garden, every stone, leaf, and breeze invites you into quietude—a pause from the pulse of life. Just steps away, the family sitting area welcomes laughter, stories, and unhurried moments. Surrounded by sylvan textures andsoft light, this is where serenity and bonding coexist. A shared breath, a gentle hush—this is where you simply be."
+        },
+        {
+          "title": "Play Loud Savor Slow",
+          "image": "assets/dubai-sports-city/Kids.png", 
+          "content": "Where giggles echo and flavors linger. The kids’ play zone bursts with joy, inviting little adventurers to climb, laugh, and explore in a space designed for imagination to run free. Just steps away, the BBQ area offers a cozy spot for grown-ups to gather, grill, and unwind under open skies. Framed by nature and filled with life, this is where energy meets ease—a shared space where families come alive in every way"
+        },
+        {
+          "title": "Train With Intention",
+          "image": "assets/dubai-sports-city/outdoor-gym.png", 
+          "content": "This isn’t just a gym—it’s your ritual of resilience. Step into a space where focus sharpens and energy ignites. With thoughtfully curated equipment, natural light, and a setting that inspires movement, every session becomes a journey— from sweat to stillness, from effort to elevation. Whether you’re building strength, chasing clarity, or simply showing up, this is where you forge your edge and flow into your best self"
+        }
+      ]
+    }
+  ]
+}
